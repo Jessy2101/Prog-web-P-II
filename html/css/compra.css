@@ -24,7 +24,7 @@ li[id="icono"]{
     display:block;
 
 }
-img {
+img[id="2"]{
     height: 18px;
     width: 18px;
    }

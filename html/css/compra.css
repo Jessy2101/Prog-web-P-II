@@ -21,8 +21,21 @@ li[id="icono"]{
     text-decoration:none;
     padding:12px 46px;
     display:block;
-
 }
+
+.m li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 73px;
+    display:block;
+}     
+
+.m li a:hover,li:hover {
+    background-color:#434343;
+}
+
+
 
 img[id="1"]{
     margin-left: 36px;
@@ -40,51 +53,8 @@ img[id="3"]{
     width: 18px;
    }
 
-.m li a {
-    background-color:#000;
-    color:#fff;
-    text-decoration:none;
-    padding:12px 73px;
-    display:block;
-}     
-
-
-
 .tab, a, p, address {
     margin: auto;
     color:#fff;
     background-color:#000;
-}
-
-
-
-
-
-
-
-
-
-
-           
-.nav li a:hover {
-    background-color:#434343;
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-                    
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
 }

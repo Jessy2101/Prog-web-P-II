@@ -18,9 +18,9 @@ ul, ol {
 }
 
 li[id="icono"]{
-    background-color:rgb(30, 173, 73);
+    background-color:rgb(0, 0, 0);
     text-decoration:none;
-    padding:12px 62px;
+    padding:12px 46px;
     display:block;
 
 }
@@ -29,17 +29,17 @@ img {
     width: 18px;
    }
 
-
-
-
-
 .m li a {
     background-color:#000;
     color:#fff;
     text-decoration:none;
-    padding:12px 62px;
+    padding:12px 73px;
     display:block;
-}                   
+}     
+
+
+
+
 
 
 

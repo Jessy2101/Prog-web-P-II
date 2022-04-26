@@ -24,7 +24,17 @@ li[id="icono"]{
     display:block;
 
 }
+
+img[id="1"]{
+    height: 69px;
+    width: 179px;
+   }
+
 img[id="2"]{
+    
+   }
+   
+img[id="3"]{
     height: 18px;
     width: 18px;
    }

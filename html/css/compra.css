@@ -25,12 +25,14 @@ li[id="icono"]{
 }
 
 img[id="1"]{
+    margin-left: 36px;
     height: 69px;
     width: 179px;
    }
 
 img[id="2"]{
-    
+    height: 80px;
+    width: 85px;
    }
    
 img[id="3"]{
@@ -48,7 +50,7 @@ img[id="3"]{
 
 
 
-.tab {
+.tab, a, p, address {
     margin: auto;
     color:#fff;
     background-color:#000;

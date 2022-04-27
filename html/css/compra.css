@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+header{
+  background-color:rgb(255, 255, 255);
+}
+
+article{
+  background-color:#f1f1f1;
+}
+
 #menu{
     margin: auto;
     font-family:Arial, Helvetica, sans-serif;
@@ -22,7 +30,7 @@ ul, ol {
 li[id="icono"]{
     background-color:rgb(0, 0, 0);
     text-decoration:none;
-    padding:13px 54.6px;
+    padding:13px 57px;
     display:block;
 }
 
@@ -30,7 +38,7 @@ li[id="icono"]{
     background-color:#000;
     color:#fff;
     text-decoration:none;
-    padding:12px 60px;
+    padding:12px 58px;
     display:block;
 }     
 
@@ -65,6 +73,7 @@ img[id="3"]{
 p[id="ir"],p>a{
     color:rgb(0, 0, 0);
     background-color:rgb(255, 255, 255);
+    text-align:center;
     
 }
 
@@ -96,9 +105,19 @@ p[id="ir"],p>a{
   width: 200px;
   margin: 60px;
   text-align:left;
+  
   line-height: 250px;
   font-size: 30px;
 }
+
+h3{
+  vertical-align: text-top; 
+}
+
+p{
+
+}
+
 
 
 

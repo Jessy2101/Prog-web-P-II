@@ -31,7 +31,7 @@ li[id="icono"]{
     display:block;
 }     
 
-.m li a:hover,li:hover {
+.m li a:hover,.m li:hover {
     background-color:#434343;
 }
 
@@ -67,6 +67,15 @@ p[id="ir"],p>a{
 
 
 
+
+
+.c li a {
+    background-color:rgb(243, 243, 243);
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:12px 55px;
+    display:inline-block;
+} 
 
 
 

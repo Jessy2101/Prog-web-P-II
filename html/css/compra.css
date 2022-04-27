@@ -63,7 +63,7 @@ img[id="3"]{
     width: 21px;
    }
 
-.tab, p, a, address {
+.tab, .tab p, .tab a, address {
     margin: auto;
     color:#fff;
     background-color:#000;
@@ -76,6 +76,7 @@ p[id="ir"],p>a{
     text-align:center;
     
 }
+
 
 
 
@@ -101,17 +102,25 @@ p[id="ir"],p>a{
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #bebebe;
   width: 200px;
   margin: 60px;
-  text-align:left;
+  text-align:center;
   line-height: 20px;
   font-size: 30px;
 }
 
-
-
-
+.flex-container a{
+  text-decoration:none;
+  color:rgb(70, 69, 77);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
+ 
+h6{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#000;
+}
 
 
 

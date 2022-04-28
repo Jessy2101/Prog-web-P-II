@@ -137,12 +137,12 @@ img[id="5"]{
     border: 2px solid #08c;
     border-radius: 7px;
     padding:10.5px 57px;
+    text-decoration: none;
 }
 
 .boton:hover {
     background-color: #08c;
     color: white;
-    text-decoration: none;
 }
 
 

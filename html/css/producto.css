@@ -138,16 +138,15 @@ img[id="5"]{
    }
 
    .boton {
-
     background-color: transparent;
-    color: #00c69f!important;
+    color: #00c69f;
     border: 2px solid #00c69f;
     border-radius: 7px;
 }
 
 .boton:hover {
-    background-color: #00c69f!important;
-    color: white!important;
+    background-color: #00c69f;
+    color: white;
     text-decoration: none;
 }
 

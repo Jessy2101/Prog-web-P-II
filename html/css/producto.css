@@ -80,7 +80,7 @@ p[id="ir"],p>a{
     text-align:center;
     
 }
-.tab, .tab p, .tab a, address {
+.tabla, .tabla p, .tabla a, address {
     margin: auto;
     color:#fff;
     background-color:#000;
@@ -133,16 +133,88 @@ img[id="5"]{
 
 .boton {
     background-color: transparent;
-    color: #00c69f;
-    border: 2px solid #00c69f;
+    color: #08c;
+    border: 2px solid #08c;
     border-radius: 7px;
     padding:10.5px 57px;
 }
 
 .boton:hover {
-    background-color: #00c69f;
+    background-color: #08c;
     color: white;
     text-decoration: none;
 }
+
+
+
+
+.tab input.tabs{
+    position: absolute;
+    left: -9999px;
+    top: 0px;
+}
+
+.tab{
+    width: 650px;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 45px auto;
+}
+
+.tab li{
+    float: left;
+    width: auto;
+}
+
+.tab label{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 2px 2px;
+    color: #08c;
+    font-size: 20px;
+    background:rgba(255,255,255,0.2);
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.tab label:hover{
+    background:rgba(137, 217, 248, 0.5);
+    top: 0;
+}
+
+
+
+
+.tabs:checked + label{
+    background: #08c;
+    color: #fff;
+    top: 0;
+}
+
+.tabs:checked ~ .tab-content{
+    display: block;
+}
+
+.tab-content{
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: none;
+    left: 0;
+    line-height: 140%;
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    z-index: 2;
+    animation-duration: 0.5s;
+    text-align: justify;
+}
+
 
 

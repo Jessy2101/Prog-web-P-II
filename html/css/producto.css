@@ -84,7 +84,15 @@ img[id="3"]{
       margin-left: 10px;
      }
      
-     
+ .tabla p{
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.tabla p[id="copy"]{
+  text-align: center;
+}
+    
 
 
 p[id="ir"],p>a{
@@ -93,10 +101,10 @@ p[id="ir"],p>a{
     text-align:center;
     
 }
-.tabla, .tabla p, .tabla a, address {
-    margin: auto;
-    color:#fff;
-    background-color:#000;
+.tabla, .tabla p, .tabla a {
+
+  color:#fff;
+  background-color:#000;
 }
 
 .t{

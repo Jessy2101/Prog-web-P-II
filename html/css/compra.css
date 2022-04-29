@@ -89,6 +89,14 @@ p[id="ir"],p>a{
     
 }
 
+.tab p{
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.tab p[id="copy"]{
+  text-align: center;
+}
 
 
 

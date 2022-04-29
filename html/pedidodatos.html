@@ -10,7 +10,7 @@ jessy:::
 6) ul, ol
 7) .m li a:hover,li:hover
 8) ul.slider li:first-child
-9)
+9) 
 10)
 *se pueden repetir los que alguien más ya uso pero no cuenta para los 10 de cada uno
 
@@ -38,7 +38,7 @@ Para sus páginas:
 </head>
 <body>
     <header>
-        <table>
+        <table class="tabla">
             <tr>
                 <td>
                     <br>
@@ -61,19 +61,27 @@ Para sus páginas:
     <hr>
     <article>
         <div>
-        <form>
             <form class="form">
-                <h2>CONTACT US</h2>
-                <p type="Name:"><input placeholder="Write your name here.."></input></p>
-                <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
-                <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
-                <button>Send Message</button>
-                <div>
-                  <span class="fa fa-phone"></span>001 1023 567
-                  <span class="fa fa-envelope-o"></span> contact@company.com
-                </div>
-              </form>
-        </form>
+                <h2>Completar Pedido✍</h2>
+                <p type="Nombre:"><input id ="text" placeholder="Escribe tu nombre aquí.."></input></p>
+                <p type="Dirección:"><input id ="text" placeholder="Ingresa la dirección de envío.."></input></p>
+                <br>
+                <h2>Método de pago📲</h2>
+                <br>
+                <input type="radio" name="metodo" value="Método 1"> Método 1 </imput>
+                <input type="radio" name="metodo" value="Método 2"> Método 2 </imput>
+                <input type="radio" name="metodo" value="Método 3"> Método 3 </imput>
+                <br><br>
+                <h2>Detalles del pedido</h2>
+                <p>----------
+                <br>----------
+                <br>----------</p>                 
+                <br>
+                <h2>TOTAL:</h2>
+               <p>-----</p>
+               <br>              
+               <button>Realizar pedido</button>              
+            </form>              
         </div>
     </article>
 </body>

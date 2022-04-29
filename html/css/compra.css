@@ -56,6 +56,17 @@ img[id="1"]{
 img[id="2"]{
     height: 80px;
     width: 85px;
+}
+img[id="i"]{
+  height: 80px;
+  width: 85px;
+  margin-left: 750px;
+ }
+
+img[id="c"]{
+    height: 80px;
+    width: 85px;
+    margin-left: 10px;
    }
    
 img[id="3"]{

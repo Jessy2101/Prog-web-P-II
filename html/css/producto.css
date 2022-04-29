@@ -11,14 +11,23 @@ article{
   background-color:#f1f1f1;
 }
 
-h1{
+.article h1{
     margin-left: 75px;
     font-size: 45px;
 }
-p{
+article. p{
     margin-right: 25px;
 
 }
+
+#margen{
+    margin-left: 500px;    
+}
+#margen a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
 
 #menu{
     margin: auto;

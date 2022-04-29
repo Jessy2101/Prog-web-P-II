@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/rei.png">
-    <link rel="stylesheet" type="text/css" href="css/compra.css">
-    <title>Chikitorei</title> 
+    <link rel="stylesheet" type="text/css" href="css/Registro.css">
+    <title>Registro de Productos</title> 
     <!-- elementos-->
     <br>
     <img id="1" src="img/empresa.png">
@@ -27,16 +27,51 @@
                     <li><a href=".html">Acerca de nosotros</a></li>
                     <li><a href=".html">Ayuda</a></li>
                 </ul>
+                <br>
+                <br>
             </div>
         </section>
         <hr>
-        <section>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <br>
+        <center>
+        <h2>Registor de Productos</h2>
+        </center>
+        <section class="Forms">
+           
+           <br>
+           <h3>Acerca del producto:</h3>
+           <br>
+           <form  autocomplete="on">
+            
+                <label for="name" class="label">Nombre del articulo:</label><br>
+                <input class="texto" type="text" id="name" name="nombre" placeholder="Agregue una descripción" maxlength="30"><br>
+                <label for="Codigo" class="label">Codigo del Item:</label><br>
+                <input class="texto" type="text" id="Codigo" name="id item" placeholder="Agregue Id del item" maxlength="10"><br>
+                <label for="Des" class="label">Descripción del Articulo:</label><br>
+                <input class="texto" type="text" id="Des" name="Descripcción del producto" placeholder="Agregue una Descripcción" maxlength="80"><br>
+                <label for="mar" class="label">Marca del producto:</label><br>
+                <input class="texto" type="text" id="mar" name="marca" placeholder="Agregue una marca" maxlength="15"><br>
+                <label for="Precio" class="label">Precio (mxn):</label><br>
+                <input class="texto" type="text" id="Precio" name="precio" placeholder="Agregue precio en pesos mexicanos" maxlength="5"><br>
+                <label for="Unidades" class="label">Unidades:</label><br>
+                <input class="texto" type="text" id="Unidades" name="unidad" placeholder="Agregue el numero de unidades que va a vender" maxlength="5"><br>
+                <div>
+                    <label for="cat" class="label">Categoria:</label>
+                    <select name="categoria" id="cat" class="option">
+                        <option disabled>Selecciona una opcción</option>
+                        <option value="Juguetes">Juguetes</option>
+                        <option value="Libros">Libros</option>
+                        <option value="Anime">Anime</option>
+                        <option value="Elec">Digital</option>
+                    </select>
+                </div>
+                <p>Estoy de acuerdo con los <a href="">Terminos y condiciones</a></p>
+                <input class="boton" type="submit" value="Acepto y subir" onclick="alert('Gracias, se le notificara cuando su producto este activado')">
+
+            
+            </form>
         </section>
     </header>
+
 </body>
 </html>

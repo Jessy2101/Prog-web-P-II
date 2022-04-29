@@ -111,7 +111,9 @@ p[id="ir"],p>a{
 } 
 
 
-
+h2{
+  font-size: 30px;
+}
 
 
 
@@ -122,7 +124,7 @@ p[id="ir"],p>a{
 }
 
 .flex-container > div {
-  background-color: #bebebe;
+  background-color: #ffffff;
   width: 200px;
   margin: 60px;
   text-align:center;

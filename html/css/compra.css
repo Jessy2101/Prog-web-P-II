@@ -1,3 +1,162 @@
+@media (max-width:450px){
+  div { display: flex; }
+  body,{
+    flex: 1;         /* Main takes up all remaining space */
+    order: 1;        /* Place it after (to the right of) the navigation */
+    min-width: 12em; /* Optimize main content area sizing */
+  }
+  
+  .flex-container {
+    flex-direction: column;
+    display:inline-table;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);}
+    
+
+  .flex-container > div {
+      background-color: #ffffff;
+      width: 10px;
+      margin: 0px;
+      text-align:center;
+      line-height: 0px;
+      font-size: 20px;
+    }
+    .flex-container div img{
+      width: 75px;
+      height: 80px;
+    }
+
+  
+    .tab, .tab p, .tab a, address {
+      color:#fff;
+      background-color:#000;
+      margin-left: 0px;
+      margin-right: 0px;
+      font-size: 14px;
+  }
+ 
+    
+    .flex-container a{
+      text-decoration:none;
+      color:rgb(70, 69, 77);
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 25px;
+     
+    }
+     
+    h6{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color:#000;
+    }
+
+
+
+  .container{
+    background-color: rgb(255, 13, 13);
+    width: 0px;
+    height: 0px;
+    margin: -100;
+  }
+  
+  ul.slider li img{
+    width: 65%;
+    height: 100%;
+    object-fit:contain;}
+
+    
+    ul.slider{
+      position: relative;
+      width: 150px;
+      height: 150px;
+    }
+    
+    ul.slider li {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+        background:rgb(3, 3, 3);
+    }
+
+    
+    ul.slider li:first-child {
+        opacity: 1; 
+    }
+    
+    ul.slider li:target {
+        opacity: 1;
+    }
+    
+    .menu{
+      text-align: center;
+      margin: -42px;
+      position:relative;
+    }
+    
+    .menu li{
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .menu li a{
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      background-color: grey;
+      padding: 10px;
+      width: 8px;
+      height: 8px;
+      font-size: 18px;
+      border-radius: 100%;
+    }
+    
+    
+    
+
+
+    
+    ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1;
+  }
+  
+  .menu{
+    text-align: center;
+    margin: -42px;
+    position:relative;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 8px;
+    height: 8px;
+    font-size: 18px;
+    border-radius: 100%;
+  }
+  
+  
+  
+
+
+
+
+  
+}
 
 *{
     margin: 0px;
@@ -42,6 +201,7 @@ li[id="icono"]{
     padding:12px 58px;
     display:block;
 }     
+
 
 .m li a:hover,.m li:hover {
     background-color:#434343;

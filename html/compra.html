@@ -1,238 +1,166 @@
-<!-- Hola chicos, por favor si pueden en sus codigos poner comentado los selectores que usan
-para no repetirlos. Y mandar mensaje por whatsapp también.
-Se deben de utilizar por lo menos 30 selectores distintos.(cada quien 10)
-jessy:::
-1) * selector universal 
-2) li[id="icono"]
-3) .m li a 
-4) .m > li 
-5) #menu
-6) ul, ol
-7) .m li a:hover,li:hover
-8) ul.slider li:first-child
-9) 
-10)
-*se pueden repetir los que alguien más ya uso pero no cuenta para los 10 de cada uno
-
-Para sus páginas:
-****Debe de manejar responsividad 450px, 600px, 800px, 1200px
-****Debe utilizar bordes cuadrados, curvos, fondos, y tipos de linea.
-****La organización de la información deberá estar usando flexbox.
-
-      -Jessy
- -->
-
-
-
- <!-- inconcluso -->
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/rei.png">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/rei.png">
         <link rel="stylesheet" type="text/css" href="css/compra.css">
-		<title>Chikitorei</title> 
+        <title>Chikitorei</title> 
         <hr>
-</head>
-<body>
-    <header>
-        <br>
-        <a href="compra.html">
-            <img id="1" src="img/empresa.png">
-            <img id="2" src="img/rei.jpeg">
-        </a>
-        <br>
-        <br>
-        <section>
-            <div id="menu">
-                <ul class="m">
-                    <li id="icono"><img id="3" src="img/menu.jpg"></li>
-                    <li><a href="compra.html">Inicio</a></li>
-                    <li><a href="Categorias.html">Categorías</a></li>
-                    <li><a href="Registro.html">Registrar productos</a></li>
-                    <li><a href=".html">Acerca de nosotros</a></li>
-                    <li><a href=".html">Ayuda</a></li>
-                </ul>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <div class="container">  
-                <ul class="slider">
-                    <li id="slide1">
-                        <img src="img/slid1.PNG"/>
-                    </li>
-                    <li id="slide2">
-                        <img src="img/slid2.PNG"/>
-                    </li>
-                    <li id="slide3">
-                        <img src="img/slid3.PNG"/>
-                    </li>
+    </head>
+    <body>
+        <header>
+            <section>
+                <table class="tabla">
+                    <tr>
+                        <td>
+                            <br>
+                            <a href="compra.html">
+                                <img id="1" src="img/empresa.png">
+                                <img id="2" src="img/rei.jpeg">
+                            </a>
+                            <br>
+                            <br>
+                        </td> 
+                        <td>
+                            <div class="flexsearch">
+                                <div class="flexsearch--wrapper">
+                                    <form class="flexsearch--form" action="#" method="post">
+                                        <div class="flexsearch--input-wrapper">
+                                            <input class="flexsearch--input" type="search" placeholder="search">
+                                        </div>
+                                        <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>                
+                        <td>                
+                            <a href="login.html">
+                                <br>
+                                <img id="i" src="img/sesion.png">
+                            </a>
+                            <img id="c" src="img/cesta.png">
+                            <br>
+                            <br>                                             
+                        </td>                
+                    </tr>
+                </table>         
+            </section>
+            <section>
+                <div id="menu">
+                    <ul class="m">
+                        <li id="icono"><img id="3" src="img/menu.jpg"></li>
+                        <li><a href="compra.html">Inicio</a></li>
+                        <li><a href="Categorias.html">Categorías</a></li>
+                        <li><a href="Registro.html">Registrar productos</a></li>
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Ayuda</a></li>
                     </ul>
-                    <ul class="menu">
-                    <li>
-                        <a href="#slide1"></a>
-                    </li>
-                    <li>
-                        <a href="#slide2"></a>
-                    </li>
-                    <li>
-                        <a href="#slide3"></a>
-                    </li>
-                </ul>                
-            </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <div class="container">  
+                    <ul class="slider">
+                        <li id="slide1">
+                            <img src="img/slid1.PNG"/>
+                        </li>
+                        <li id="slide2">
+                            <img src="img/slid2.PNG"/>
+                        </li>
+                        <li id="slide3">
+                            <img src="img/slid3.PNG"/>
+                        </li>
+                        </ul>
+                        <ul class="menu">
+                        <li>
+                            <a href="#slide1"></a>
+                        </li>
+                        <li>
+                            <a href="#slide2"></a>
+                        </li>
+                        <li>
+                            <a href="#slide3"></a>
+                        </li>
+                    </ul>                
+                </div>
+            </section>
+        </header>
+        <article>
+            <table>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td>
+                        <section>
+                            <div>
+                                <ul class="c">
+                                    <li><a href="#">Los más vendidos</a></li>
+                                    <li><a href="Categorias.html">Categorías</a></li>
+                                    <li><a href="#">Novedades</a></li>
+                                    <li><a href="#">Rebajas</a></li>
+                                    <li><a href="#">Mas buscados</a></li>
+                                </ul>
+                            </div>
+                        </section>                    
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td>
+                        <section>
+                            <hr>
+                            <br>
+                            <h2>Ofertas del día</h2>
+                            <div class="flex-container">
+                                <div><a href="Producto1-J.html"><img src="img/c-1.png"><h6>Ciudad en llamas</h6><span><p>Don Winslow</p></span></a></div>
+                                <div><a href="Producto2-J.html"><img src="img/c-2.png"><h6>Osito de Peluche</h6><span><p>Ted Teddy Bear</p></span></a></div>
+                                <div><a href="Producto3-J.html"><img src="img/c-3.png"><h6>Joyero Excelsior</h6><span><p>Prisma Chocolate</p></span></a></div> 				 
+                            </div>
+                            <br><br>
+                        </section>
+                    </td>
+                </tr>
+            </table>
+        </article> 
+        <hr>
+        <section>
+            <br><br>
+            <p id="ir">¿Te gustaría vender algún producto?<a href="Registro.html"> Ir</a></p>
+            <br><br>
+            <hr>
         </section>
-    </header>
-    <article>
-        <table>
-            <tr>
-                <td>&nbsp;&nbsp;&nbsp;</td>
-                <td>
-                    <section>
-                        <div>
-                            <ul class="c">
-                                <li><a href=".html">Los más vendidos</a></li>
-                                <li><a href="Categorias.html">Categorías</a></li>
-                                <li><a href=".html">Novedades</a></li>
-                                <li><a href=".html">Rebajas</a></li>
-                                <li><a href=".html">Mas buscados</a></li>
-                            </ul>
-
-
-
-                        </div>
-
-
-
-                    </section>
-                    
-                </td>
-                <td>&nbsp;&nbsp;&nbsp;</td>
-                <td>
-                    <section>
-                        <hr>
-                        <br>
-                        <h2>Ofertas del día</h2>
-                        <div class="flex-container">
-                        <div><a href="Producto1-J.html"><img src="img/c-1.png"><h6>Ciudad en llamas</h6><span><p>Don Winslow</p></span></a></div>
-                        <div>2</div>
-                        <div>3</div> 				 
-                        </div>
-                        <div class="flex-container">
-                            <div><img src="">1</div>
-                            <div>2</div>
-                            <div>3</div> 							
-                        </div>
-                        <br><br>
-                    </section>
-                </td>
-            </tr>
-        </table>
-    </article> 
-
-
-
-
-
-
-
-<hr>
-<section>
-    <br><br>
-    <p id="ir">¿Te gustaría vender algún producto?<a href="Registro.html"> Ir</a></p>
-    <br><br>
-    <hr>
-</section>
-
-
-
-
-
-
-
-<footer class="tab">
-    <table>
-        <br>
-        <tr>
-            <td>	
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-             <td>
-                <p><strong>Nuestra Historia</strong><br>
-                <br>Preguntas frecuentes </p>
-                Suscríbete a nuestro boletín </p>
-            </td>
-            <td>	
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>	
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p><strong>Información</strong><br><br>
-                Para más información, contacte:<br></p>
-                <address>
-                    <a href="jessica_quiroze@gmail.com">Jessica Quiroz</a>.
-                </address>
-            </td>
-
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>	
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p><strong>&nbsp;&nbsp;&nbsp;Términos y condiciones <br>
-                <br>&nbsp;&nbsp;&nbsp;Aviso de privacidad </p>
-                &nbsp;&nbsp;&nbsp;Sugerencias<strong></p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>	
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            </td>
-            <td>
-                <p><strong>Visitanos </strong>
-                <address>
-                    <br>710-B, Advant Navis Business Park
-                    Sector-142, Noida Uttar Pradesh – 201305</p>
-                </address>
-            </td>
-        </tr>         
-    </table>
-     
-    <center>
-        <br>
-        <P><strong><small>Copyright © 2022 Chikitorei</small></strong></P>
-        <br>
-    </center>
-    <hr>
-</footer>
-
-</body>
+        <footer class="tab">
+            <table>
+                <br>
+                <tr>
+                    <td>
+                        <p><strong>Nuestra Historia</strong><br>
+                        <br>Preguntas frecuentes 
+                        Suscríbete a nuestro boletín </p>
+                    </td>
+                    <td>
+                        <p><strong>Información</strong><br><br>
+                        Para más información, contacte al: 52551242
+                        </p>
+                    </td>                   
+                    <td>
+                        <p><strong>Términos y condiciones <br>
+                        <br>Aviso de privacidad
+                        Sugerencias<strong></p>
+                    </td>                   
+                    <td>
+                        <p><strong>Visitanos </strong>
+                        <address>
+                            <br>710-B, Advant Navis Business Park
+                            Sector-142, Noida Uttar Pradesh – 201305
+                        </address>
+                        </p>
+                    </td>
+                </tr>         
+            </table>              
+            <br>
+                <p id="copy"><strong><small>Copyright © 2022 Chikitorei</small></strong></p>
+            <br>           
+            <hr>
+        </footer>
+    </body>
 </html>
